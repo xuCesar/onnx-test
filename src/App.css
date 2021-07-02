@@ -1,10 +1,21 @@
 .App {
 }
+
+.imageBox {
+  width: 100%;
+  display: flex;
+}
+
+.imageBox section {
+  width: 50%;
+}
+
 .preview {
   width: 200px;
   height: 200px;
   margin: 0 auto;
   border: 1px solid #ccc;
+  background-color: pink;
 }
 
 .preview img {
